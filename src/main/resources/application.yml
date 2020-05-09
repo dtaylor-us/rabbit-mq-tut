@@ -2,6 +2,12 @@ spring:
   profiles:
     active: usage_message
 
+
+rabbitmq:
+   listener:
+     simple:
+        default-requeue-rejected: false
+
 logging:
   level:
     org: ERROR
